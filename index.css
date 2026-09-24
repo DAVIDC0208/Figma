@@ -1,0 +1,25 @@
+#body {
+    height: px;
+    width: 1440px;
+}
+.tamaño_img {
+    height: 350px;
+    width: 350px;
+    border-radius: 175px;
+}
+.tamaño_div_redes {
+    height: 25.14px;
+    width: 242.96px;
+}
+.tamaño_header {
+    width: 1440px;
+    height: 747px;
+}
+.tamaño_main {
+    width: 1440px;
+    height: 1294px;
+}
+.tamaño_footer {
+    width: 1440px;
+    height: 547px;
+}
