@@ -13,13 +13,26 @@
 }
 .tamaño_header {
     width: 1440px;
-    height: 747px;
+    height: 547px;
 }
 .tamaño_main {
     width: 1440px;
-    height: 1294px;
+    height: 1750px;
 }
 .tamaño_footer {
     width: 1440px;
     height: 547px;
+}
+.boton {
+    background-color: #0699A6;
+    color: white;
+    border: none;
+    width: 225px;
+    height: 60px;
+}
+.letra_h3 {
+    color: #9E8C6C;
+}
+.letra_azul {
+    color: #0699A6;
 }
