@@ -5,20 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma Responsive</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="tamaño_header">
+    <header class="tamaño_header header_color">
       <img src="images/Persona.png" alt="Persona" class="tamaño_img" />
-      <div>
-        <p class="letra_h3">DESIGNER / DEVELOPER</p>
-        <h1>Matt McDonald</h1>
+      <div class="centrado_div_header tamaño_header_div">
+        <p class="letra_h3 pt-sans-narrow-regular">DESIGNER / DEVELOPER</p>
+        <h1 class="tamaño_letra_titulo">Matt McDonald</h1>
         <button class="boton">CONTACT ME</button>
       </div>
     </header>
     <main class="tamaño_main">
-      <div>
-        <h2>About Me</h2>
-        <p>
+      <section>
+        <h2 class="tamaño_letra_titulo_main_h2">About Me</h2>
+        <p class="tamaño_letra_main_h3 pt-sans-narrow-regular">
           Use this area to say something about yourself or describe your goals.
           Tum dicere exorsus est cur verear, ne ad id omnia referri oporteat,
           ipsum per se ipsam voluptatem, quia consequuntur magni dolores eos,
@@ -27,10 +39,14 @@
           disciplinae placet: constituam, quid.
         </p>
 
-        <h2>Experience</h2>
-        <h3 class="letra_h3">FRONT-END DEVELOPER - DROPBOX</h3>
-        <p>Mar.2020 - Present</p>
-        <p>
+        <h2 class="tamaño_letra_titulo_main_h2">Experience</h2>
+        <h3 class="letra_h3 tamaño_letra_main_h3 pt-sans-narrow-bold">
+          FRONT-END DEVELOPER - DROPBOX
+        </h3>
+        <p class="tamaño_letra_main_p pt-sans-narrow-regular">
+          Mar.2020 - Present
+        </p>
+        <p class="tamaño_letra_main_p pt-sans-narrow-regular">
           Describe your responsibilities. Tum dicere exorsus est cur verear, ne
           ad id omnia referri oporteat, ipsum per se ipsam voluptatem, quia
           consequuntur magni dolores eos, qui blanditiis praesentium voluptatum
@@ -38,9 +54,13 @@
           ipsi auctori huius disciplinae placet: constituam, quid.
         </p>
 
-        <h2>LEAD DESIGNER - SCRYPT, INC.</h2>
-        <h3 class="letra_h3">Jun.2014 - Sept.2017</h3>
-        <p>
+        <h2 class="letra_h3 tamaño_letra_main_h3 pt-sans-narrow-bold">
+          VISUAL DESIGNER - OUTBOUNDENGINE
+        </h2>
+        <h3 class="tamaño_letra_main_h3 pt-sans-narrow-regular">
+          Sept.2017 - Sept.2020
+        </h3>
+        <p class="tamaño_letra_main_p pt-sans-narrow-regular">
           Describe your responsibilities. Tum dicere exorsus est cur verear, ne
           ad id omnia referri oporteat, ipsum per se ipsam voluptatem, quia
           consequuntur magni dolores eos, qui blanditiis praesentium voluptatum
@@ -48,24 +68,46 @@
           ipsi auctori huius disciplinae placet: constituam, quid.
         </p>
 
-        <h2>UI DESIGNER - PINGER INC.</h2>
-        <h3 class="letra_h3">Jun.2014 - Sept.2017</h3>
-        <p>
+        <h2 class="letra_h3 tamaño_letra_main_h3 pt-sans-narrow-bold">
+          LEAD DESIGNER - SCRYPT, INC.
+        </h2>
+        <h3 class="tamaño_letra_main_h3 pt-sans-narrow-regular">
+          Jun.2014 - Sept.2017
+        </h3>
+        <p class="tamaño_letra_main_p pt-sans-narrow-regular">
           Describe your responsibilities. Tum dicere exorsus est cur verear, ne
           ad id omnia referri oporteat, ipsum per se ipsam voluptatem, quia
           consequuntur magni dolores eos, qui blanditiis praesentium voluptatum
           deleniti atque insitam in ea quid est eligendi optio, cumque nihil ut
           ipsi auctori huius disciplinae placet: constituam, quid.
         </p>
-      </div>
 
-      <div>
-        <h2>Education</h2>
-        <h3 class="letra_h3">BFA IN GRAPHICS DESIGN - JAMES MADISON UNIVERSITY</h3>
-        <p>Graduated 2014</p>
+        <h2 class="letra_h3 tamaño_letra_main_h3 pt-sans-narrow-bold">
+          UI DESIGNER - PINGER INC.
+        </h2>
+        <h3 class="tamaño_letra_main_h3 pt-sans-narrow-regular">
+          Jun.2014 - Sept.2017
+        </h3>
+        <p class="tamaño_letra_main_p pt-sans-narrow-regular">
+          Describe your responsibilities. Tum dicere exorsus est cur verear, ne
+          ad id omnia referri oporteat, ipsum per se ipsam voluptatem, quia
+          consequuntur magni dolores eos, qui blanditiis praesentium voluptatum
+          deleniti atque insitam in ea quid est eligendi optio, cumque nihil ut
+          ipsi auctori huius disciplinae placet: constituam, quid.
+        </p>
+      </section>
 
-        <h2 class="letra_h3">SKILLSET</h2>
-        <ul>
+      <section>
+        <h2 class="tamaño_letra_titulo_main_h2">Education</h2>
+        <h3 class="letra_h3 tamaño_letra_main_h3 pt-sans-narrow-bold">
+          BFA IN GRAPHICS DESIGN - JAMES MADISON UNIVERSITY
+        </h3>
+        <p class="tamaño_letra_main_p pt-sans-narrow-regular">Graduated 2014</p>
+
+        <h2 class="letra_h3 tamaño_letra_main_h3 pt-sans-narrow-bold">
+          SKILLSET
+        </h2>
+        <ul class="tamaño_letra_main_p pt-sans-narrow-regular">
           <li><p>Visual Design</p></li>
           <li><p>Illustration</p></li>
           <li><p>UX / Prototyping</p></li>
@@ -74,8 +116,10 @@
           <li><p>Front-End Development</p></li>
         </ul>
 
-        <h2 class="letra_h3">AWARDS</h2>
-        <ol>
+        <h2 class="letra_h3 tamaño_letra_main_h3 pt-sans-narrow-bold">
+          AWARDS
+        </h2>
+        <ol class="tamaño_letra_main_p pt-sans-narrow-regular">
           <li><p>Award 1 - Mar.2019</p></li>
           <li><p>Award 2 - Sept.2015</p></li>
           <li><p>Award 3 - Feb.2013</p></li>
@@ -83,29 +127,35 @@
           <li><p>Award 5 - Jan.2005</p></li>
         </ol>
 
-        <h2 class="letra_h3">CAREER TRAITS</h2>
+        <h2 class="letra_h3 tamaño_letra_main_h3 pt-sans-narrow-bold">
+          CAREER TRAITS
+        </h2>
         <div>
-          <p>
-            <strong>Holistic Designer</strong> - Design should be treated as a living
-            organism, guided by the environment it lives in as a whole.
+          <p class="tamaño_letra_main_p pt-sans-narrow-regular">
+            <strong>Holistic Designer</strong> - Design should be treated as a
+            living organism, guided by the environment it lives in as a whole.
           </p>
-          <p>
-            <strong>User-Focused</strong> - I pay close attention to the users needs and
-            pain points. I design with empathy. Launch, learn & iterate.
+          <p class="tamaño_letra_main_p pt-sans-narrow-regular">
+            <strong>User-Focused</strong> - I pay close attention to the users
+            needs and pain points. I design with empathy. Launch, learn &
+            iterate.
           </p>
-          <p>
-            <strong>Proactive Evolution</strong > - Curiosity and a desire to learn
-            constantly broadens my skill set, enabling me to wear many hats at
-            once.
+          <p class="tamaño_letra_main_p pt-sans-narrow-regular">
+            <strong>Proactive Evolution</strong> - Curiosity and a desire to
+            learn constantly broadens my skill set, enabling me to wear many
+            hats at once.
           </p>
-          <p>
-            <strong>Bold, yet practical</strong> - I know when to push the boundaries
-            vs. when to embrace simplicity to meet multiple deadlines.
+          <p class="tamaño_letra_main_p pt-sans-narrow-regular">
+            <strong>Bold, yet practical</strong> - I know when to push the
+            boundaries vs. when to embrace simplicity to meet multiple
+            deadlines.
           </p>
         </div>
 
-        <h2 class="letra_h3">RECENT WORKS</h2>
-        <ul class="letra_azul">
+        <h2 class="letra_h3 tamaño_letra_main_h3 pt-sans-narrow-bold">
+          RECENT WORKS
+        </h2>
+        <ul class="letra_azul tamaño_letra_main_p pt-sans-narrow-regular">
           <li>thedonut.co →</li>
           <li>outboundengine.com →</li>
           <li>rswalsh.com →</li>
@@ -114,31 +164,14 @@
           <li>codefresh.io →</li>
           <li>carsoncreekranch.com →</li>
         </ul>
-
-        <p>
-          Use this area to say something about yourself or describe your goals.
-          Tum dicere exorsus est cur verear, ne ad id omnia referri oporteat,
-          ipsum per se ipsam voluptatem, quia consequuntur magni dolores eos,
-          qui blanditiis praesentium voluptatum deleniti atque insitam in ea
-          quid est eligendi optio, cumque nihil ut ipsi auctori huius
-          disciplinae placet: constituam, quid.
-        </p>
-        <h3>Experience</h3>
-        <p>FRONT-END DEVELOPER</p>
-        <p>Mar.2020 - Present</p>
-        <p>
-          Describe your responsibilities. Tum dicere exorsus est cur verear, ne
-          ad id omnia referri oporteat, ipsum per se ipsam voluptatem, quia
-          consequuntur magni dolores eos, qui blanditiis praesentium voluptatum
-          deleniti atque insitam in ea quid est eligendi optio, cumque nihil ut
-          ipsi auctori huius disciplinae placet: constituam, quid.
-        </p>
-      </div>
+      </section>
     </main>
-    <footer class="tamaño_footer">
-      <h1>Get in touch!</h1>
-      <p class="letra_azul">youremail@email.com | 512.273.1838</p>
-      <div>
+    <footer class="tamaño_footer footer_color">
+      <h1 class="tamaño_letra_titulo_footer">Get in touch!</h1>
+      <p class="letra_azul tamaño_letra_titulo_footer_h2">
+        youremail@email.com | 512.273.1838
+      </p>
+      <div class="tamaño_div_redes">
         <img src="images/facebook.png" alt="facebook" />
         <img src="images/instagram.png" alt="instagram" />
         <img src="images/linkedin.png" alt="linkedin" />
