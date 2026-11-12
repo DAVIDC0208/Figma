@@ -62,6 +62,21 @@ ul {
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
+  z-index: 1;
+}
+
+.tamaño_img_LetrasRedondas {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  z-index: 2;
+  position: absolute;
+  top: -25px;
+  left: 85px;
+}
+
+.contenedor_imagenes {
+  position: relative;
 }
 
 .tamaño_header_div {
@@ -107,7 +122,6 @@ ul {
 
 .tamaño_letra_main_h3 {
   font-size: 18px;
-  font-weight: 700;
 }
 
 .tamaño_letra_main_p {
@@ -212,7 +226,7 @@ ul {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
   body {
     max-width: 1440px;
     margin: 0 auto;
@@ -225,8 +239,21 @@ ul {
   }
 
   .tamaño_img {
-    width: 180px;
-    height: 180px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .tamaño_img_LetrasRedondas {
+    width: 152px;
+    height: 152px;
+    object-fit: contain;
+    z-index: 2;
+    position: absolute;
+    top: 260px;
+    left: 230px;
   }
 
   .tamaño_letra_titulo {
@@ -245,5 +272,13 @@ ul {
 
   .tamaño_footer {
     min-height: 320px;
+  }
+
+  .cambio_orden {
+    order: 1;
+  }
+
+  .cambio_orden_2 {
+    order: 2;
   }
 }
